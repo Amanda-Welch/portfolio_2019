@@ -1,0 +1,1 @@
+<footer class="flex-md-shrink-1"> Amanda Sacco © 2019  </footer>

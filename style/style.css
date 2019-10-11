@@ -1,0 +1,156 @@
+body {
+    background-image: url("../image/bg6dark.jpg");
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;  
+    padding-top: 0;
+    background-attachment: fixed;
+    text-overflow: auto;
+    text-align: center;
+    word-wrap: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgtop {
+    border: 1px solid black;
+    border-radius: 80%;
+}
+
+.wrapper {
+    max-width: 500px;
+    max-height: 500px;
+    display: block !important;
+    margin: 0 auto;
+}
+
+.img-circle {
+    border: 2px solid rgb(241, 220, 220);
+    border-radius: 80%;
+    margin-top: 10px;
+    display: block;
+}
+
+table {
+    max-width: 500px;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 5px;
+}
+
+th,
+td {
+    max-width: 500px;
+    text-align: center;
+    background-color: rgba(183, 252, 252, 0.6);
+    border: 2px solid rgb(232, 241, 242);
+    border-radius: 20%;
+    padding: 0;
+    margin: 0;
+
+}
+
+td:first-child, th:first-child {
+    max-width: 500px;
+    border-left-style: solid;
+    border-top-left-radius: 20%; 
+    border-bottom-left-radius: 20%;
+}
+
+td:last-child, th:first-child {
+    max-width: 500px;
+    border-right-style: solid;
+    border-bottom-right-radius: 20%; 
+    border-top-right-radius: 20%;
+}
+
+td a {
+    display: block;
+}
+
+tr:hover { 
+    background: rgba(252, 245, 183, 0.6); 
+}
+
+header {
+    z-index: 1;
+}
+
+.div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 500px;
+    border: 2px solid rgb(232, 241, 242);
+    border-radius: 2%;
+    background-size: 1%;
+    text-overflow: auto;
+    word-wrap: none;
+    background-color: rgba(232, 241, 242, 0.7);
+    display: block;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+}
+
+a:link {
+    color: rgb(232, 241, 242);
+}
+
+a:visited {
+    color: rgb(32, 32, 32);
+}
+
+#contactForm {
+    background-color: rgba(183, 252, 252, 0.6);
+    background-position: center;
+    text-align: center;
+    margin: 20px auto 0 auto;
+
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 27px;
+    background-color: rgb(209, 210, 211);
+}
+
+
+/*
+#gradient {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+border: 2px solid rgb(232, 241, 242);
+    border-collapse: separate;
+    border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    -webkit-border-radius: 20%;
+*/
